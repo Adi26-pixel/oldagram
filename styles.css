@@ -1,0 +1,99 @@
+html,
+body {
+  margin: px 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  width: 570px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* header */
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 25px 15px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 2px #c4c4c4;
+}
+
+.logo {
+  width: 130px;
+  margin-left: 20px;
+}
+
+.user-avatar {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+/* Post Header */
+
+.post .header {
+  display: flex;
+  justify-content: start;
+  /* padding: 20px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header .avatar {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.name-location .name {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.name-location .location {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/* Post Image */
+
+.img-post .img {
+  width: 100%;
+}
+
+/* Post icons */
+
+.control-bar .icon {
+  width: 32px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/*  Post likes */
+
+.post .likes {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* Post Comments */
+
+.post p {
+  margin: 20px;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.post .username {
+  font-weight: 700;
+}
